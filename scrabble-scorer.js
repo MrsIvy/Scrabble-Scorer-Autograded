@@ -23,31 +23,20 @@ function oldScrabbleScorer(word) {
 
          if (oldPointStructure[pointValue].includes(word[i])) {
             letterPoints += `Points for '${word[i]}': ${pointValue}\n`
-            // I'm not sure if word is defined, but I think that is should be 
-            // and that way it will be able to be called in the "if statement"
-            //  and that will help calculate the score of the word
          }
-
       }
    }
    return letterPoints;
 }
 
-// your job is to finish writing these functions and variables that we've named //
-// don't change the names or your program won't work as expected. //
 
 function initialPrompt() {
 
    let word = input.question("Let's play Scarabble! Enter a word to score: ");
 
-
-
    return word;
 
-
-   //   used input.question to grab the player's answer
 };
-
 
 
 // need to flip the letters and then nunbers to be more effiecent trying break this array into strings and I need that I am going to use a for in loop
@@ -119,15 +108,6 @@ const scoringAlgorithms = [
    }
 ];
 
-// I need to ask them a question to see with way they 
-// want to score their word. Give option to pick which 
-// scoring system they want. Scoringalgorithm
-// input.question or console.log()
-// irritate the array of scoring algorithms
-// when the array prints out they will see their choices and 
-// be able to pick one
-// need to create a variable determine the choice of scoring system
-// console.log(variable)
 
 function scorerPrompt() {
 
@@ -142,7 +122,6 @@ function scorerPrompt() {
 }
 
 
-
 function transform(oldPointSystem) {
    let emptyObject = {};
    for (let key in oldPointSystem) {
@@ -154,15 +133,18 @@ function transform(oldPointSystem) {
    return emptyObject;
 };
 
+
 let newPointStructure = transform(oldPointStructure);
 
 function runProgram() {
    let word = initialPrompt();
    let scorer = scorerPrompt().scoreFunction;
+   
+   console.log(word);
+   console.log(scorer(word));
+   
 }
 // initialPrompt --> contain in a variable to pass into scorerprompt within the runProgram function
-
-
 
 
 // Don't write any code below this line //

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1720848433591" clover="3.2.0">
+  <project timestamp="1720848433591" name="All files">
+    <metrics statements="50" coveredstatements="31" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="4" elements="62" coveredelements="37" complexity="0" loc="50" ncloc="50" packages="1" files="1" classes="1"/>
+    <file name="scrabble-scorer.js" path="C:\Users\mrsli\Documents\LaunchCode\Scrabble-Scorer-Autograded\scrabble-scorer.js">
+      <metrics statements="50" coveredstatements="31" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="4"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="17" count="0" type="stmt"/>
+      <line num="18" count="0" type="stmt"/>
+      <line num="20" count="0" type="stmt"/>
+      <line num="22" count="0" type="stmt"/>
+      <line num="24" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="29" count="0" type="stmt"/>
+      <line num="35" count="0" type="stmt"/>
+      <line num="37" count="0" type="stmt"/>
+      <line num="44" count="1" type="stmt"/>
+      <line num="46" count="3" type="stmt"/>
+      <line num="49" count="3" type="stmt"/>
+      <line num="52" count="3" type="stmt"/>
+      <line num="53" count="6" type="stmt"/>
+      <line num="58" count="3" type="stmt"/>
+      <line num="63" count="10" type="stmt"/>
+      <line num="66" count="10" type="stmt"/>
+      <line num="67" count="10" type="stmt"/>
+      <line num="70" count="10" type="stmt"/>
+      <line num="71" count="19" type="cond" truecount="2" falsecount="0"/>
+      <line num="72" count="15" type="stmt"/>
+      <line num="74" count="4" type="stmt"/>
+      <line num="78" count="10" type="stmt"/>
+      <line num="82" count="1" type="stmt"/>
+      <line num="83" count="4" type="stmt"/>
+      <line num="84" count="4" type="stmt"/>
+      <line num="85" count="4" type="stmt"/>
+      <line num="86" count="12" type="stmt"/>
+      <line num="89" count="4" type="stmt"/>
+      <line num="93" count="1" type="stmt"/>
+      <line num="114" count="0" type="stmt"/>
+      <line num="115" count="0" type="stmt"/>
+      <line num="116" count="0" type="stmt"/>
+      <line num="117" count="0" type="stmt"/>
+      <line num="119" count="0" type="stmt"/>
+      <line num="121" count="0" type="stmt"/>
+      <line num="126" count="7" type="stmt"/>
+      <line num="127" count="7" type="stmt"/>
+      <line num="128" count="49" type="stmt"/>
+      <line num="129" count="49" type="stmt"/>
+      <line num="130" count="182" type="stmt"/>
+      <line num="133" count="7" type="stmt"/>
+      <line num="137" count="1" type="stmt"/>
+      <line num="140" count="0" type="stmt"/>
+      <line num="141" count="0" type="stmt"/>
+      <line num="143" count="0" type="stmt"/>
+      <line num="144" count="0" type="stmt"/>
+      <line num="152" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
